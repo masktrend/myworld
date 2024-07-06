@@ -1,0 +1,242 @@
+<html><head><base href="https://websim.ai%20%20halal%20Market%20place%20like%20facebook%20marketplace,%20with%20modern%20featres%20and%20text">
+<title>HalalHub - The Modern Halal Marketplace</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1877f2;
+    text-decoration: none;
+  }
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+  }
+  .nav-links a {
+    color: #050505;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .main-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  .sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  .sidebar a {
+    color: #050505;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .sidebar a:hover {
+    color: #1877f2;
+  }
+  .sidebar .icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  .product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .product-info {
+    padding: 15px;
+  }
+  .product-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+  }
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1877f2;
+  }
+  .product-location {
+    font-size: 14px;
+    color: #65676b;
+    margin-top: 5px;
+  }
+  .halal-badge {
+    background-color: #42b72a;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 5px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-content container">
+      <a href="#" class="logo">HalalHub</a>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for halal products...">
+      </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Messages</a>
+        <a href="#">Notifications</a>
+        <a href="#">Account</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container main-content">
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#"><span class="icon">🍽️</span> Food & Beverages</a></li>
+        <li><a href="#"><span class="icon">👗</span> Modest Fashion</a></li>
+        <li><a href="#"><span class="icon">🧴</span> Cosmetics & Personal Care</a></li>
+        <li><a href="#"><span class="icon">🏠</span> Home & Living</a></li>
+        <li><a href="#"><span class="icon">📚</span> Islamic Books & Education</a></li>
+        <li><a href="#"><span class="icon">🕌</span> Prayer Essentials</a></li>
+        <li><a href="#"><span class="icon">🎁</span> Gifts & Occasions</a></li>
+      </ul>
+    </aside>
+
+    <main class="product-grid">
+      <div class="product-card">
+        <img src="https://websim.ai/images/halal_beef.jpg" alt="Premium Halal Beef" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Premium Halal Beef</h3>
+          <p class="product-price">$15.99/kg</p>
+          <p class="product-location">Al-Amin Butchery, New York</p>
+          <span class="halal-badge">Certified Halal</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://websim.ai/images/modest_dress.jpg" alt="Elegant Abaya" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Elegant Black Abaya</h3>
+          <p class="product-price">$79.99</p>
+          <p class="product-location">Modesty Fashion, London</p>
+          <span class="halal-badge">Ethical Fashion</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://websim.ai/images/halal_cosmetics.jpg" alt="Halal Makeup Set" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Halal Makeup Essentials Set</h3>
+          <p class="product-price">$49.99</p>
+          <p class="product-location">Pure Beauty, Dubai</p>
+          <span class="halal-badge">Certified Halal</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://websim.ai/images/prayer_rug.jpg" alt="Luxury Prayer Rug" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Luxury Velvet Prayer Rug</h3>
+          <p class="product-price">$34.99</p>
+          <p class="product-location">Islamic Essentials, Istanbul</p>
+          <span class="halal-badge">Handcrafted</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://websim.ai/images/dates.jpg" alt="Organic Medjool Dates" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Organic Medjool Dates</h3>
+          <p class="product-price">$12.99/500g</p>
+          <p class="product-location">Blessed Harvests, Medina</p>
+          <span class="halal-badge">100% Organic</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://websim.ai/images/quran.jpg" alt="Digital Quran Pen" class="product-image" width="200" height="200">
+        <div class="product-info">
+          <h3 class="product-title">Digital Quran Pen Reader</h3>
+          <p class="product-price">$129.99</p>
+          <p class="product-location">TechIslam, Silicon Valley</p>
+          <span class="halal-badge">Educational</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // This script would handle dynamic loading of products, real-time messaging, and other interactive features
+    console.log("HalalHub - Connecting Muslim consumers and ethical businesses worldwide");
+  </script>
+</body></html>
